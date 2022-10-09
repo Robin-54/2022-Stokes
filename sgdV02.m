@@ -34,7 +34,7 @@ for i = 1:layers - 1
     bias{i} = 2*randn(nodeList(i+1),1);
 end
 
-finalP = minimiseV07_slow(X, Y, weight, bias);
+finalP = minimiseV07(X, Y, weight, bias);
 
 % Check this function 
 finalWeight = {};
