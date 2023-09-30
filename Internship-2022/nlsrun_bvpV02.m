@@ -8,7 +8,7 @@ function nlsrun_bvpV02
 
 MaxIts = 1e5;
 
-x = [0 .1 .2 .5 .8 .8 1];
+x = [0 .1 .2 .5 .8 .9 1];
 
 % Chebfun
 domain = [0,  1];
